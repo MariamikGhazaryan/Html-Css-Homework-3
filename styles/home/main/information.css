@@ -1,0 +1,28 @@
+.information {
+    margin-top: 100px;
+    color: #fafafa;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-column-gap: 10px;
+}
+
+.information__heading {
+    font-size: 40px;
+}
+
+.information__telephone {
+    color: #8fbde6;
+    text-decoration: none;
+}
+
+.information__contact-manager {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+.information__contact-manager__info {
+    line-height: 25px;
+    text-align: center;
+}

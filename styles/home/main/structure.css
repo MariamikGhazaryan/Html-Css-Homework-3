@@ -1,0 +1,37 @@
+.structure {
+    margin-top: 100px;
+    color: #e7fdff;
+    text-align: center;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.structure__info {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 20px;
+}
+
+.structure__heading {
+    font-size: 20px;
+}
+
+.structure__sub-heading {
+    font-size: 15px;
+}
+
+.structure__image {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.structure__female-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.structure__description {
+
+}

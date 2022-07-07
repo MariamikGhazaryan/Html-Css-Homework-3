@@ -1,0 +1,17 @@
+.blockquote {
+    color: #8fbde6;
+    line-height: 25px;
+    margin-top: 100px;
+}
+
+.blockquote::before {
+    content: "\201C	";
+    font-size: 200px;
+    color: #53c8e9;
+    display: block;
+}
+
+.blockquote__author {
+    display: block;
+    margin-left: 88%;
+}

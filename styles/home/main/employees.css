@@ -1,0 +1,49 @@
+.employees {
+    margin-top: 100px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.employees__list {
+
+}
+
+.employees__list__item {
+    width: 30%;
+    margin-top: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.employees__list__item__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.employees__list__item__name {
+    font-size: 14px;
+}
+
+.employees__list__item__desc {
+    font-size: 10px;
+}
+
+.employees__list__item__logos {
+
+}
+
+.employees__list__item__logos__item {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.employees__list__item:nth-child(2) {
+    background-color: #53c8e9;
+    border-radius: 20px;
+}
+
+.employees__list__item__logos__item__link {
+    color: #fafafa;
+    text-decoration: none;
+}

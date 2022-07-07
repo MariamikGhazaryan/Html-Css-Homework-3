@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+main, header {
+    background-color: #0c3d6a;
+    padding: 20px 40px;
+    font-family: sans-serif;
+    margin: 0;
+}
+

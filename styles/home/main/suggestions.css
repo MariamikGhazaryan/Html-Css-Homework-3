@@ -1,0 +1,48 @@
+.suggestion {
+    margin-top: 70px;
+}
+
+.suggestion__heading {
+    color: #fafafa;
+    text-align: center;
+}
+
+.suggestion__description {
+    color: #fafafa;
+    text-align: center;
+}
+
+.suggestion-list {
+    display: flex;
+}
+
+.suggestion-list__item {
+    list-style-type: none;
+    color: #fafafa;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.suggestion-list__item__link {
+    border: 1px solid #5f9bc6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #5f9bc6;
+    text-decoration: none;
+}
+
+.suggestion-list__item__link:hover {
+    background-color: #53c8e9;
+    color: #fafafa;
+}
+
+.suggestion-list__item__icon{
+    font-size: 50px;
+}
+
+.suggestion-list__item__description {
+    margin-bottom: 30px;
+}

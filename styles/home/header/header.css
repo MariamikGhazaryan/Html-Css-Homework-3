@@ -1,0 +1,80 @@
+.header {
+}
+
+.header:first-child:last-child {
+    margin: 0 10px;
+}
+
+.header-logo-navigation, .header-navigation {
+    display: inline;
+    margin-left: -40px;
+}
+
+.header-logo-navigation-list {
+    display: inline;
+    list-style-type: none;
+}
+
+.header-logo-navigation-list::marker {
+    list-style-type: none;
+}
+
+.header-navigation-list {
+    float: right;
+    display: inline;
+}
+
+.header-logo-navigation-list__item {
+    display: inline;
+    margin: 5px;
+}
+
+.header-navigation-list__item {
+    display: inline;
+}
+
+.header-navigation-list__item_link {
+    color: #dbf8ff;
+    text-decoration: none;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.header-navigation-list__item_link:hover {
+    color: #8fbde6;
+    text-decoration: underline;
+}
+
+.header-logo-navigation-list__item_link {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo-navigation-list__item:hover {
+    opacity: 0.5;
+}
+
+.header-search {
+    display: inline;
+    float: right;
+}
+
+.header-search__input {
+    border: 1px solid #345876;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.header-search__icon {
+    display: inline-block;
+    position: relative;
+    margin-left: -20px;
+    color: #345876;
+}
+
+.header-logo {
+    height: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,37 @@
+.about {
+    display: grid;
+    grid-template-columns: 50% auto;
+    color: #ecfeff;
+    margin-top: 100px;
+}
+
+.about-mission {
+    width: 200px;
+}
+
+.about-goals {
+    width: 200px;
+    border-radius: 20px;
+    background-color: #53c8e9;
+    padding: 10px 20px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-mission__heading, .about-goals__heading {
+    font-size: 30px;
+}
+
+.about-mission__description, .about-goals__description {
+}
+
+.about-description {
+    text-align: justify;
+    margin-right: 100px;
+}
+.about-image {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 200px;
+}

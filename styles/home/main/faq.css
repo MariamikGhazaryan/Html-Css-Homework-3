@@ -1,0 +1,37 @@
+.faq {
+    margin-top: 100px;
+    color: #eefeff;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 20px;
+}
+
+.faq__abbr {
+
+}
+
+.faq__heading {
+    font-size: 30px;
+}
+
+.faq__sub-heading {
+    background-color: #53c8e9;
+    padding: 10px 0;
+}
+
+.faq__description {
+    text-align: left;
+    font-size: 14px;
+}
+
+.faq__url {
+    color: #66b5db;
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.faq__url:hover {
+    opacity: 0.6;
+}
