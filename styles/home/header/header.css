@@ -33,19 +33,19 @@
     display: inline;
 }
 
-.header-navigation-list__item_link {
+.header-navigation-list__item__link {
     color: #dbf8ff;
     text-decoration: none;
     margin-right: 5px;
     text-transform: uppercase;
 }
 
-.header-navigation-list__item_link:hover {
+.header-navigation-list__item__link:hover {
     color: #8fbde6;
     text-decoration: underline;
 }
 
-.header-logo-navigation-list__item_link {
+.header-logo-navigation-list__item__link {
     font-size: 30px;
     text-decoration: none;
     color: white;

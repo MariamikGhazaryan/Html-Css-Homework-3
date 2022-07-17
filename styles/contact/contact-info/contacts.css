@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.contacts__list__item {
+.contacts-list__item {
     list-style-type: none;
     width: 23%;
     background-color: #fafafa;
@@ -16,16 +16,16 @@
     display: inline-block;
 }
 
-.contacts__list__item:nth-child(2) {
+.contacts-list__item:nth-child(2) {
     padding-top: 30px;
 
 }
 
-.contacts__list__item__icon {
+.contacts-list__item__icon {
     color: #53c8e9;
     font-size: 30px;
 }
 
-.contacts__list__item__number {
+.contacts-list__item__number {
     display: block;
 }

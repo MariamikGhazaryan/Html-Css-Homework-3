@@ -42,23 +42,28 @@
             <ul class="header-logo-navigation-list">
                 <li class="header-logo-navigation-list__item">
                     <a href="https://www.facebook.com/"
-                       class="fa fa-facebook header-logo-navigation-list__item_link"></a>
+                       class="fa fa-facebook header-logo-navigation-list__item__link"></a>
                 </li>
                 <li class="header-logo-navigation-list__item">
-                    <a href="https://www.twitter.com/" class="fa fa-twitter header-logo-navigation-list__item_link"></a>
+                    <a href="https://www.twitter.com/"
+                       class="fa fa-twitter header-logo-navigation-list__item__link"></a>
                 </li>
                 <li class="header-logo-navigation-list__item">
                     <a href="https://www.instagram.com/"
-                       class="fa fa-instagram header-logo-navigation-list__item_link"></a>
+                       class="fa fa-instagram header-logo-navigation-list__item__link"></a>
                 </li>
             </ul>
         </nav>
-        <div class="header-search">
+        <form action=""
+              method="post"
+              autocomplete="on"
+              class="header-search">
             <input class="header-search__input"
                    type="search"
+                   name="search"
                    placeholder="Search">
             <i class="fa fa-search header-search__icon"></i>
-        </div>
+        </form>
     </div>
 
     <div>
@@ -66,13 +71,13 @@
         <nav class="header-navigation">
             <ul class="header-navigation-list">
                 <li class="header-navigation-list__item">
-                    <a href="home.html" class="header-navigation-list__item_link">Home</a>
+                    <a href="home.html" class="header-navigation-list__item__link">Home</a>
                 </li>
                 <li class="header-navigation-list__item">
-                    <a href="#about" class="header-navigation-list__item_link">About</a>
+                    <a href="#about" class="header-navigation-list__item__link">About</a>
                 </li>
                 <li class="header-navigation-list__item">
-                    <a href="contact.html" class="header-navigation-list__item_link">Contact</a>
+                    <a href="contact.html" class="header-navigation-list__item__link">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -94,7 +99,8 @@
                 How it works
             </a>
         </div>
-        <img class="brand-main-info__image" alt="Employee image" src="assets/images/home/employee-image.jpeg">
+        <img class="brand-main-info__image" alt="Employee image" src="assets/images/home/employee-image.jpeg"
+             width="315" height="250px">
     </section>
 
     <section class="suggestion">
@@ -107,9 +113,9 @@
         <ul class="suggestion-list">
             <li class="suggestion-list__item">
                 <i class="fa fa-users suggestion-list__item__icon"></i>
-                <h4>
+                <h3>
                     Find you and your family
-                </h4>
+                </h3>
                 <p class="suggestion-list__item__description">
                     We protect vehicles, property, pets and events.
                 </p>
@@ -119,9 +125,9 @@
             </li>
             <li class="suggestion-list__item">
                 <i class="fa fa-mobile fa-10x suggestion-list__item__icon"></i>
-                <h4>
+                <h3>
                     For your business
-                </h4>
+                </h3>
                 <p class="suggestion-list__item__description">
                     We protect business and employees, as well as company property and vehicles.
                 </p>
@@ -131,9 +137,9 @@
             </li>
             <li class="suggestion-list__item">
                 <i class="fa fa-plane suggestion-list__item__icon"></i>
-                <h4>
+                <h3>
                     Find your future
-                </h4>
+                </h3>
                 <p class="suggestion-list__item__description">
                     We protect investments, retirements and financial dreams.
                 </p>
@@ -303,85 +309,85 @@
 
     <section class="employees">
         <ul class="employees__list">
-            <li class="employees__list__item">
+            <li class="employees-list__item">
                 <figure>
                     <img alt="Mary Brown Image" src="assets/images/home/employee-1.webp"
-                         class="employees__list__item__image">
+                         class="employees-list__item__image">
                     <figcaption>
                         <h6>creative leader</h6>
-                        <h5 class="employees__list__item__name">
+                        <h5 class="employees-list__item__name">
                             Mary Brown
                         </h5>
-                        <p class="employees__list__item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        <p class="employees-list__item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit.</p>
-                        <ul class="employees__list__item__logos">
-                            <li class="employees__list__item__logos__item">
+                        <ul class="employees-list__item__logos">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.facebook.com/"
-                                   class="fa fa-facebook employees__list__item__logos__item__link"></a>
+                                   class="fa fa-facebook employees-list__item__logos__item__link"></a>
                             </li>
-                            <li class="employees__list__item__logos__item">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.twitter.com/"
-                                   class="fa fa-twitter employees__list__item__logos__item__link"></a>
+                                   class="fa fa-twitter employees-list__item__logos__item__link"></a>
                             </li>
-                            <li class="employees__list__item__logos__item">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.instagram.com/"
-                                   class="fa fa-instagram employees__list__item__logos__item__link"></a>
+                                   class="fa fa-instagram employees-list__item__logos__item__link"></a>
                             </li>
                         </ul>
                     </figcaption>
                 </figure>
             </li>
-            <li class="employees__list__item">
+            <li class="employees-list__item">
                 <figure>
                     <img alt="Ann Richmond Image" src="assets/images/home/employee-2.webp"
-                         class="employees__list__item__image">
+                         class="employees-list__item__image">
                     <figcaption>
                         <h6>creative leader</h6>
-                        <h5 class="employees__list__item__name">
+                        <h5 class="employees-list__item__name">
                             Ann Richmond
                         </h5>
-                        <p class="employees__list__item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        <p class="employees-list__item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit.</p>
-                        <ul class="employees__list__item__logos">
-                            <li class="employees__list__item__logos__item">
+                        <ul class="employees-list__item__logos">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.facebook.com/"
-                                   class="fa fa-facebook employees__list__item__logos__item__link"></a>
+                                   class="fa fa-facebook employees-list__item__logos__item__link"></a>
                             </li>
-                            <li class="employees__list__item__logos__item">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.twitter.com/"
-                                   class="fa fa-twitter employees__list__item__logos__item__link"></a>
+                                   class="fa fa-twitter employees-list__item__logos__item__link"></a>
                             </li>
-                            <li class="employees__list__item__logos__item">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.instagram.com/"
-                                   class="fa fa-instagram employees__list__item__logos__item__link"></a>
+                                   class="fa fa-instagram employees-list__item__logos__item__link"></a>
                             </li>
                         </ul>
                     </figcaption>
                 </figure>
             </li>
-            <li class="employees__list__item">
+            <li class="employees-list__item">
                 <figure>
                     <img alt="Nina Greenfield Image" src="assets/images/home/employee-3.webp"
-                         class="employees__list__item__image">
+                         class="employees-list__item__image">
                     <figcaption>
                         <h6>programming guru</h6>
-                        <h5 class="employees__list__item__name">
+                        <h5 class="employees-list__item__name">
                             Nina Greenfield
                         </h5>
-                        <p class="employees__list__item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        <p class="employees-list__item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit.</p>
-                        <ul class="employees__list__item__logos">
-                            <li class="employees__list__item__logos__item">
+                        <ul class="employees-list__item__logos">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.facebook.com/"
-                                   class="fa fa-facebook employees__list__item__logos__item__link"></a>
+                                   class="fa fa-facebook employees-list__item__logos__item__link"></a>
                             </li>
-                            <li class="employees__list__item__logos__item">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.twitter.com/"
-                                   class="fa fa-twitter employees__list__item__logos__item__link"></a>
+                                   class="fa fa-twitter employees-list__item__logos__item__link"></a>
                             </li>
-                            <li class="employees__list__item__logos__item">
+                            <li class="employees-list__item__logos__item">
                                 <a href="https://www.instagram.com/"
-                                   class="fa fa-instagram employees__list__item__logos__item__link"></a>
+                                   class="fa fa-instagram employees-list__item__logos__item__link"></a>
                             </li>
                         </ul>
                     </figcaption>
